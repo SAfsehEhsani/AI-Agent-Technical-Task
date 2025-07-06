@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]  # standard includes httptools and python-dotenv
+pydantic>=2.0
+pytest
+pytest-mock
+python-dotenv # Already added, good to keep
+httpx # For making HTTP requests, useful for testing the API or external tools
+# Add your chosen LLM library dependency here:
+# e.g., google-cloud-aiplatform
+# e.g., openai
+# If using an external API as a tool, you might need 'requests' or 'httpx'
